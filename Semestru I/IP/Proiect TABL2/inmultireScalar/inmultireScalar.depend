@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1514985086 source:c:\users\andre\desktop\inmultirescalar\main.cpp
+	<iostream>
+	<graphics.h>
+	<fstream>
+
+1515241924 source:e:\facultate\semestru i\ip\proiect tabl2\inmultirescalar\main.cpp
+	<iostream>
+	<graphics.h>
+	<fstream>
+

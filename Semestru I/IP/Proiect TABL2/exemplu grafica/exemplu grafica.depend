@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1512391403 source:c:\users\andre\desktop\exemplu grafica\main.cpp
+	<iostream>
+	<conio.h>
+	<graphics.h>
+	<dos.h>
+
+1512391570 source:e:\facultate\semestru i\ip\proiect tabl2\exemplu grafica\main.cpp
+	<iostream>
+	<conio.h>
+	<graphics.h>
+	<dos.h>
+

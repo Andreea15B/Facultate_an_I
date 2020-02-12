@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1508419260 source:c:\users\andre\desktop\suma maxima\main.cpp
+	<iostream>
+	<fstream>
+

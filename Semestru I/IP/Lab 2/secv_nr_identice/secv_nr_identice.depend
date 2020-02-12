@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1508057394 source:c:\users\sergiu\desktop\secv_nr_identice\main.cpp
+	<iostream>
+	<fstream>
+

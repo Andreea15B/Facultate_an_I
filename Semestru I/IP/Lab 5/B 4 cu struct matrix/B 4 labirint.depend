@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1509382147 source:c:\users\andre\desktop\b 4 labirint\main.cpp
+	<iostream>
+	<fstream>
+

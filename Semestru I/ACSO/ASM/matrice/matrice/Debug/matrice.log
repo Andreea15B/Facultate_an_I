@@ -1,0 +1,2 @@
+﻿  matrice.cpp
+e:\facultate\semestru i\acso\asm\matrice\matrice\matrice.cpp(16): error C2425: '*': non-constant expression in 'first operand'

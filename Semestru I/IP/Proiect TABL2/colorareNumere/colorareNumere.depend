@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1514977861 source:c:\users\andre\desktop\colorarenumere\main.cpp
+	<iostream>
+	<graphics.h>
+	<fstream>
+

@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1521988910 source:c:\users\andreea\desktop\lab 5\main.cpp
+	<iostream>
+	"MyVector.h"
+
+1521990120 c:\users\andreea\desktop\lab 5\myvector.h
+	<iostream>
+

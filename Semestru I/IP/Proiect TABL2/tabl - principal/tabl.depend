@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1513108455 source:e:\facultate\semestru i\ip\proiect tabl2\tabl\main.cpp
+	<iostream>
+	<fstream>
+	<cmath>
+
+1516008207 source:e:\facultate\semestru i\ip\proiect tabl2\tabl - principal\main.cpp
+	<iostream>
+	<fstream>
+	<graphics.h>
+

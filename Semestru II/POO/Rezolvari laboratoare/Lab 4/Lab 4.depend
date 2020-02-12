@@ -1,0 +1,30 @@
+# depslib dependency file v1.0
+1521372385 source:c:\users\andreea\desktop\lab 4\main.cpp
+	<iostream>
+	<stdio.h>
+	"Forma.h"
+	"Dreptunghi.h"
+	"Cerc.h"
+	"Triunghi.h"
+
+1521372392 c:\users\andreea\desktop\lab 4\forma.h
+
+1521372399 c:\users\andreea\desktop\lab 4\dreptunghi.h
+	"Forma.h"
+
+1521372105 c:\users\andreea\desktop\lab 4\cerc.h
+	"Forma.h"
+
+1521371365 source:c:\users\andreea\desktop\lab 4\dreptunghi.cpp
+	"Dreptunghi.h"
+
+1521372119 source:c:\users\andreea\desktop\lab 4\cerc.cpp
+	"Cerc.h"
+
+1521372932 c:\users\andreea\desktop\lab 4\triunghi.h
+	"Forma.h"
+
+1521373304 source:c:\users\andreea\desktop\lab 4\triunghi.cpp
+	"Triunghi.h"
+	<cmath>
+

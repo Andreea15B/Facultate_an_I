@@ -1,0 +1,107 @@
+Apelare meniuri
+
+int main()
+{
+    initwindow(1000,1000);
+    vect v1,v2,v3;
+    matrix m1,m2,m3;
+    m1.x=30; m1.y=30; m2.x=300; m2.y=30;
+    bool vectSauMatr; //0 daca vector, 1 daca matrice
+    unsigned int functieApelataVector; //0 daca adunare, 1 scadere, 2 inmultire, 3 putere, 4 suma, 5 shift dreapta, 6 shift stanga, 7 scalar, 8 produs, 9 sort
+    unsigned int functieApelataMatrice; //0 daca adunare, 1 scadere, 2 inmultire, 3 putere, 4 transpusa, 5 diagonala principala, 6 sub diagonala principala, 7 deasupra, 8 diagonala secundara, 9 determinant, 10 inversa, 11 scalar
+    bool tastaturaSauFisier; //0 daca tastatura, 1 daca fisier
+    vectSauMatr = meniu_vectorSauMatrice();
+    if(vectSauMatr==0) {
+        functieApelataVector = meniu_functiiVectori();
+        tastaturaSauFisier = meniu_tastaturaSauFisierVector();
+        switch(functieApelataVector) {
+            case 0: {
+                if(tastaturaSauFisier==0) {
+                    mesajTastatura();
+                    citire_tastatura_afisare_vector(v1,v1.x,v1.y,WHITE);
+                    citire_tastatura_afisare_vector(v2,v2.x,v2.y,WHITE);
+                    //adunareVectori_grafica;
+                }
+                else {
+                    cleardevice();
+                    citire_fisier_vect(v1);
+                    citire_fisier_vect(v2);
+                    //adunareVectori_grafica;
+                }
+            } break;
+            case 1: //scadereVectori_grafica; break;
+            case 2: //inmultireVectori_grafica; break;
+            case 3: //putereVector_grafica; break;
+            case 4: //sumaElementeVector_grafica; break;
+            case 5: //shiftareDreapta_grafica; break;
+            case 6: //shiftareStanga_grafica; break;
+            case 7: //inmultireScalarVector_grafica; break;
+            case 8: //produsElementeVector_grafica; break;
+            case 9: /*bubbleSort_grafica;*/ break;
+        }
+    }
+    else {
+        functieApelataMatrice = meniu_functiiMatrice();
+        tastaturaSauFisier = meniu_tastaturaSauFisierMatrice();
+        cleardevice();
+        switch(functieApelataMatrice) {
+            case 0: {
+                if(tastaturaSauFisier==0) {
+                    mesajTastatura();
+                    citire_tastatura_afisare_matrice(m1,m1.x,m1.y,WHITE);
+                    citire_tastatura_afisare_matrice(m2,m2.x,m2.y,WHITE);
+                    //adunareMatrice_grafica;
+                    }
+                else {
+                    cleardevice();
+                    citire_fisier_matr(m1);
+                    citire_fisier_matr(m2);
+                    //adunareMatrice_grafica;
+                }
+            } break;
+            case 1: //scadereMatrice_grafica; break;
+            case 2: {
+                if(tastaturaSauFisier==0) {
+                    mesajTastatura();
+                    citire_tastatura_afisare_matrice(m1,m1.x,m1.y,WHITE);
+                    m2.x=m1.x*m1.coloane+140; m2.y=m1.x;
+                    citire_tastatura_afisare_matrice(m2,m2.x,m2.y,WHITE);
+                    inmultire_matrice_grafica(m1,m2,m3);
+                }
+                else {
+                    cleardevice();
+                    citire_fisier_afisare_matrice(m1,m1.x,m1.y,WHITE);
+                    m2.x=m1.x*m1.coloane+40; m2.y=m1.x;
+                    citire_fisier_afisare_matrice(m2,m2.x,m2.y,WHITE);
+                    inmultire_matrice_grafica(m1,m2,m3);
+                }
+            } break;//inmultire_matrice_grafica(m1,m2); break;
+            case 3: //putereMatrice_grafica; break;
+            case 4: //transpusaMatrice_grafica; break;
+            case 5: //sumaDiagPrincipala_grafica; break;
+            case 6: //sumaSubDiagPrincipala_grafica; break;
+            case 7: //sumaDeasupraDiagPrincipala_grafica; break;
+            case 8: //sumaDiagSecundara_grafica; break;
+            case 9: //determinant_grafica; break;
+            case 10: //inversa_grafica; break;
+            case 11: { //scalar - facut
+                int scalar;
+                if(tastaturaSauFisier==0) {
+                    mesajTastatura();
+                    citire_tastatura_afisare_matrice(m1,m1.x,m1.y,WHITE);
+                    cout<<"\nScalar: ";
+                    cin>>scalar; cout<<endl;
+                    inmultire_scalar_matrice_grafica(m1,scalar,m2);
+                }
+                else {
+                    cleardevice();
+                    citire_fisier_afisare_matrice(m1,m1.x,m1.y,WHITE);
+                    fin>>scalar;
+                    inmultire_scalar_matrice_grafica(m1,scalar,m2);
+                }
+            } break;
+        }
+    }
+    getch();
+    return 0;
+}

@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1524205408 source:c:\users\andreea\desktop\andreea bucataru\propozitie.cpp
+	"Propozitie.h"
+	<iostream>
+	<cstring>
+
+1524207129 c:\users\andreea\desktop\andreea bucataru\propozitie.h
+	<vector>
+	<iostream>
+
+1524207121 source:c:\users\andreea\desktop\andreea bucataru\main.cpp
+	<iostream>
+	"Propozitie.h"
+

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1510858272 source:c:\users\andre\desktop\bucla_lista\main.cpp
+	<iostream>
+	<fstream>
+

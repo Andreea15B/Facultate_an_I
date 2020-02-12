@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1521041764 source:c:\users\andre\desktop\4.1\forma.cpp
+
+1521042042 c:\users\andre\desktop\4.1\forma.h
+
+1521041271 source:c:\users\andre\desktop\4.1\main.cpp
+	<iostream>
+	<stdio.h>
+	"Forma.h"
+	"Dreptunghi.h"
+	"Cerc.h"
+
+1521041804 c:\users\andre\desktop\4.1\dreptunghi.h
+	"Forma.h"
+
+1521041282 c:\users\andre\desktop\4.1\cerc.h
+
+1521041675 source:c:\users\andre\desktop\4.1\dreptunghi.cpp
+	"Dreptunghi.h"
+

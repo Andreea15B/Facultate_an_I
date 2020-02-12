@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1527086413 source:c:\users\andreea\desktop\lab 12\main.cpp
+	<iostream>
+	"GWindow.h"
+	"vector"
+	"string"
+
+1527087845 c:\users\andreea\desktop\lab 12\gwindow.h
+	<vector>
+	<string>
+

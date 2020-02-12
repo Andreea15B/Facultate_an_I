@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1520435289 source:c:\users\andre\desktop\3.1\bignumber.cpp
+	<cstring>
+	<stdio.h>
+	<iostream>
+	"BigNumber.h"
+
+1520433085 c:\users\andre\desktop\3.1\bignumber.h
+

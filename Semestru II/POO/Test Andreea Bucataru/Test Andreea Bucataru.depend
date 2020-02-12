@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1528270495 source:c:\users\andreea\desktop\test andreea bucataru\main.cpp
+	<iostream>
+	"Continent.h"
+	"Stat.h"
+	"Munti.h"
+	"Teritoriu.h"
+
+1528269912 c:\users\andreea\desktop\test andreea bucataru\continent.h
+	"Teritoriu.h"
+
+1528269900 c:\users\andreea\desktop\test andreea bucataru\teritoriu.h
+	<string.h>
+	<stdlib.h>
+
+1528270521 c:\users\andreea\desktop\test andreea bucataru\stat.h
+	"Teritoriu.h"
+	"Munti.h"
+	<vector>
+
+1528270476 c:\users\andreea\desktop\test andreea bucataru\munti.h
+	"Teritoriu.h"
+

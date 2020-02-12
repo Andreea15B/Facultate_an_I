@@ -1,0 +1,3 @@
+﻿  Pi.cpp
+c:\users\andre\desktop\pi\pi\pi.cpp(8): warning C4101: 'i': unreferenced local variable
+  Pi.vcxproj -> C:\Users\andre\Desktop\Pi\Debug\Pi.exe

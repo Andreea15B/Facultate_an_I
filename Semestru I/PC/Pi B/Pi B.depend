@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1509188569 source:c:\users\andre\desktop\pi b\main.cpp
+	<iostream>
+	<cmath>
+	<iomanip>
+	<fstream>
+
+1509997277 source:c:\users\andre\desktop\pi b - wrong answer\main.cpp
+	<iostream>
+	<cmath>
+	<iomanip>
+	<fstream>
+
